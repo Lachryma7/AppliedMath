@@ -1,0 +1,17 @@
+set title "sin(100x)+sin((100+dk)*x)"
+set samples 5000
+set xrange [-10:10]
+set xlabel "x"
+set term png size 1280, 960
+
+do for [num = 0:100] {
+    outf = sprintf('%04.0f.png', num)
+    set output outf
+
+    base = 100
+    dk = num / 100.0
+    leg = sprintf('dk = %02.2f', dk)
+    plot sin(base*x)+sin((base+dk)*x) title leg lc 'blue'
+}
+
+unset output

@@ -1,0 +1,365 @@
+Script started on 2022-04-24 17:12:30+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="55"]
+Welcome to fish, the friendly interactive shell
+Type `help` for instructions on how to use fish
+[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ce[61C[38;5;240mmacs -nw[61C[30m(B[m[38;5;196me[38;5;240mmacs -nw[61C[30m(B[m[38;5;196mm[38;5;240macs -nw[62C[30m(B[m[38;5;196ma[38;5;240mcs -nw[63C[30m(B[m[38;5;196mc[38;5;240ms -nw[64C[30m(B[m[38;5;196ms[38;5;240m -nw[65C[30m(B[m[38;5;26memacs[38;5;240m -nw[65C[30m(B[m[38;5;26m [38;5;240m-nw[66C[30m(B[m [38;5;240m-nw[66C[30m(B[m-[38;5;240mnw[67C[30m(B[m[38;5;39m-[38;5;240mnw[67C[30m(B[m[38;5;39mn[38;5;240mw[68C[30m(B[m[38;5;39mw[69C[30m(B[m[69C
+[30m(B[m[?2004l]0;emacs -nw /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[55d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[55d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[55;33H[?25l50tcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[55;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[55d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[55d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[H
+[?12l[?25h[?12;25h[55d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                                       [0m[39;49m[27m
+[A
+Welcome to GNU Emacs, one component of the GNU/Linux operating system.[K
+[K
+Get help           C-h  (Hold down CTRL and press h)[K
+[4m[38;5;62mEmacs manual[0m[39;49m       C-h r        [4m[38;5;62mBrowse manuals[0m[39;49m     C-h i[K
+[4m[38;5;62mEmacs tutorial[0m[39;49m     C-h t        Undo changes       C-x u[K
+[4m[38;5;62mBuy manuals[0m[39;49m        C-h RET      Exit Emacs         C-x C-c[K
+[4m[38;5;62mActivate menubar[0m[39;49m   M-`[K
+(‘C-’ means use the CTRL key.  ‘M-’ means use the Meta (or Alt) key.[K
+If you have no Meta key, you may instead type ESC followed by the character.)[K
+Useful tasks:[K
+[4m[38;5;62mVisit New File[0m[39;49m                  [4m[38;5;62mOpen Home Directory[0m[39;49m[K
+[4m[38;5;62mCustomize Startup[0m[39;49m               [4m[38;5;62mOpen *scratch* buffer[0m[39;49m[K
+[K
+GNU Emacs 26.3 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.14)[K
+ of 2020-03-26, modified by Debian[K
+Copyright (C) 2019 Free Software Foundation, Inc.[K
+[K
+GNU Emacs comes with ABSOLUTELY NO WARRANTY; type C-h C-w for [4m[38;5;62mfull details[0m[39;49m.[K
+Emacs is Free Software--Free as in Freedom--so you can redistribute copies[K
+of Emacs and modify it; type C-h C-c to see [4m[38;5;62mthe conditions[0m[39;49m.[K
+Type C-h C-o for information on [4m[38;5;62mgetting the latest version[0m[39;49m.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:%%--F1  [39;49m[1m[30m[48;5;250m*GNU Emacs* [0m[39;49m[30m[48;5;250m   All L1     (Fundamental) ------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[55d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mfish: Job 1, 'emacs -nw' has stopped
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cs[61C[38;5;240mcript Q4.log[61C[30m(B[m[38;5;196ms[38;5;240mcript Q4.log[61C[30m(B[m[38;5;196ml[30m(B[m[K[62C[38;5;240meep 1000 &[62C[30m(B[m[38;5;196me[38;5;240mep 1000 &[63C[30m(B[m[38;5;196me[38;5;240mp 1000 &[64C[30m(B[m[38;5;196mp[38;5;240m 1000 &[65C[30m(B[m[38;5;26msleep[38;5;240m 1000 &[65C[30m(B[m[38;5;26m [38;5;240m1000 &[66C[30m(B[m [38;5;240m1000 &[66C[30m(B[m1[38;5;240m000 &[67C[30m(B[m[38;5;39m1[38;5;240m000 &[67C[30m(B[m[38;5;39m0[38;5;240m00 &[68C[30m(B[m[38;5;39m0[38;5;240m0 &[69C[30m(B[m[38;5;39m0[38;5;240m &[70C[30m(B[m[38;5;39m [38;5;240m&[71C[30m(B[m [38;5;240m&[71C[30m(B[m&[72C[38;5;28m&[72C[30m(B[m[72C
+[30m(B[m[?2004l]0;sleep 1000 & /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ce[61C[38;5;240mmacs -nw[61C[30m(B[m[38;5;196me[38;5;240mmacs -nw[61C[30m(B[m[38;5;196mm[38;5;240macs -nw[62C[30m(B[m[38;5;196ma[38;5;240mcs -nw[63C[30m(B[m[38;5;196mx[30m(B[m[K[64C[K[63C[38;5;196mx[64C[30m(B[m[38;5;196ms[65C[30m(B[m[K[64C[K[63C[38;5;196mc[64C[30m(B[m[38;5;240ms -nw[64C[30m(B[m[38;5;196ms[38;5;240m -nw[65C[30m(B[m[38;5;26memacs[38;5;240m -nw[65C[30m(B[m[38;5;26m [38;5;240m-nw[66C[30m(B[m [38;5;240m-nw[66C[30m(B[m-[38;5;240mnw[67C[30m(B[m[38;5;39m-[38;5;240mnw[67C[30m(B[m[38;5;39mn[38;5;240mw[68C[30m(B[m[38;5;39mw[69C[30m(B[m[69C
+[30m(B[m[?2004l]0;emacs -nw /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[55d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[55d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[55;33H[?25l50tcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[55;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[55d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[55d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[H
+[?12l[?25h[?12;25h[55d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mfish: Job 3, 'emacs -nw' has stopped
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cs[61C[38;5;240mleep 1000 &[61C[30m(B[m[38;5;196ms[38;5;240mleep 1000 &[61C[30m(B[m[38;5;196ml[38;5;240meep 1000 &[62C[30m(B[m[38;5;196me[38;5;240mep 1000 &[63C[30m(B[m[38;5;196me[38;5;240mp 1000 &[64C[30m(B[m[38;5;196mp[38;5;240m 1000 &[65C[30m(B[m[38;5;26msleep[38;5;240m 1000 &[65C[30m(B[m[38;5;26m [38;5;240m1000 &[66C[30m(B[m [38;5;240m1000 &[66C[30m(B[m1[38;5;240m000 &[67C[30m(B[m[38;5;39m1[38;5;240m000 &[67C[30m(B[m[38;5;39m0[38;5;240m00 &[68C[30m(B[m[38;5;39m0[38;5;240m0 &[69C[30m(B[m[38;5;39m0[38;5;240m &[70C[30m(B[m[38;5;39m [38;5;240m&[71C[30m(B[m [38;5;240m&[71C[30m(B[m&[72C[38;5;28m&[72C[30m(B[m[72C
+[30m(B[m[?2004l]0;sleep 1000 & /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ce[61C[38;5;240mmacs -nw[61C[30m(B[m[38;5;196me[38;5;240mmacs -nw[61C[30m(B[m[38;5;196mm[38;5;240macs -nw[62C[30m(B[m[38;5;196ma[38;5;240mcs -nw[63C[30m(B[m[38;5;196ms[30m(B[m[K[64C[K[63C[38;5;196mx[64C[30m(B[m[K[63C[38;5;196mc[64C[30m(B[m[38;5;240ms -nw[64C[30m(B[m[38;5;196ms[38;5;240m -nw[65C[30m(B[m[38;5;26memacs[38;5;240m -nw[65C[30m(B[m[38;5;26m [38;5;240m-nw[66C[30m(B[m [38;5;240m-nw[66C[30m(B[m-[38;5;240mnw[67C[30m(B[m[38;5;39m-[38;5;240mnw[67C[30m(B[m[38;5;39mn[38;5;240mw[68C[30m(B[m[38;5;39mw[69C[30m(B[m[69C
+[30m(B[m[?2004l]0;emacs -nw /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[55d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[55d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[55;33H[?25l50tcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[55;54H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[55d[?25lLoading /etc/emacs/site-start.d/50tcsh.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[55d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[H
+[?12l[?25h[?12;25h[55d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mfish: Job 5, 'emacs -nw' has stopped
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cp[61C[38;5;240ms axu[61C[30m(B[m[38;5;196mp[38;5;240ms axu[61C[30m(B[m[38;5;196ms[38;5;240m axu[62C[30m(B[m[38;5;26mps[38;5;240m axu[62C[30m(B[m[38;5;26m [38;5;240maxu[63C[30m(B[m [38;5;240maxu[63C[30m(B[ma[38;5;240mxu[64C[30m(B[m[38;5;39ma[38;5;240mxu[64C[30m(B[m[38;5;39mx[38;5;240mu[65C[30m(B[m[38;5;39mu[66C[30m(B[m[66C
+[30m(B[m[?2004l]0;ps axu /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mUSER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0    896   528 ?        Sl   13:51   0:00 /init
+root      1591  0.0  0.0    896    84 ?        Ss   15:47   0:00 /init
+root      1592  0.0  0.0    896    84 ?        S    15:47   0:00 /init
+lachryma  1593  0.0  0.0 236148  8620 pts/0    Ss   15:47   0:01 -fish
+lachryma  2233  0.0  0.0   7360  2208 pts/0    R+   17:12   0:00 script Q4.log
+lachryma  2234  0.6  0.0 162076  8168 pts/1    Ssl  17:12   0:00 fish -i
+lachryma  2263  0.0  0.2 220560 33568 pts/1    Tl   17:12   0:00 emacs -nw
+lachryma  2281  0.0  0.0   7232   580 pts/1    S    17:13   0:00 sleep 1000
+lachryma  2294  0.2  0.2 220560 33400 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2306  0.0  0.0   7232   576 pts/1    S    17:13   0:00 sleep 1000
+lachryma  2319  1.0  0.2 220560 33184 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2332  0.0  0.0  10616  3268 pts/1    R+   17:13   0:00 ps axu
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cf[61C[38;5;240mg 2027[61C[30m(B[m[38;5;196mf[38;5;240mg 2027[61C[30m(B[m[38;5;196mg[38;5;240m 2027[62C[30m(B[m[38;5;26mfg[38;5;240m 2027[62C[30m(B[m[38;5;26m [38;5;240m2027[63C[30m(B[m [38;5;240m2027[63C[30m(B[m2[38;5;240m027[64C[30m(B[m[38;5;39m2[38;5;240m027[64C[30m(B[m[38;5;39m2[30m(B[m[K[65C[38;5;39m9[66C[30m(B[m[38;5;39m4[67C[30m(B[m
+[30m(B[m[?2004l]0;fg 2294 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mSend job 3 (emacs -nw) to foreground
+]0;emacs -nw /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[?1049h[22;0;0t[?12;25h[?1h=[?2004h[55;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                                       [0m[39;49m[27m
+[A
+Welcome to GNU Emacs, one component of the GNU/Linux operating system.[K
+[K
+Get help           C-h  (Hold down CTRL and press h)[K
+[4m[38;5;62mEmacs manual[0m[39;49m       C-h r        [4m[38;5;62mBrowse manuals[0m[39;49m     C-h i[K
+[4m[38;5;62mEmacs tutorial[0m[39;49m     C-h t        Undo changes       C-x u[K
+[4m[38;5;62mBuy manuals[0m[39;49m        C-h RET      Exit Emacs         C-x C-c[K
+[4m[38;5;62mActivate menubar[0m[39;49m   M-`[K
+(‘C-’ means use the CTRL key.  ‘M-’ means use the Meta (or Alt) key.[K
+If you have no Meta key, you may instead type ESC followed by the character.)[K
+Useful tasks:[K
+[4m[38;5;62mVisit New File[0m[39;49m                  [4m[38;5;62mOpen Home Directory[0m[39;49m[K
+[4m[38;5;62mCustomize Startup[0m[39;49m               [4m[38;5;62mOpen *scratch* buffer[0m[39;49m[K
+[K
+GNU Emacs 26.3 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.14)[K
+ of 2020-03-26, modified by Debian[K
+Copyright (C) 2019 Free Software Foundation, Inc.[K
+[K
+GNU Emacs comes with ABSOLUTELY NO WARRANTY; type C-h C-w for [4m[38;5;62mfull details[0m[39;49m.[K
+Emacs is Free Software--Free as in Freedom--so you can redistribute copies[K
+of Emacs and modify it; type C-h C-c to see [4m[38;5;62mthe conditions[0m[39;49m.[K
+Type C-h C-o for information on [4m[38;5;62mgetting the latest version[0m[39;49m.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:%%--F1  [39;49m[1m[30m[48;5;250m*GNU Emacs* [0m[39;49m[30m[48;5;250m   All L1     (Fundamental) ------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[55d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mfish: Job 3, 'emacs -nw' has stopped
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cf[61C[38;5;240mg 2294[61C[30m(B[m[38;5;196mf[38;5;240mg 2294[61C[30m(B[m[38;5;196mg[38;5;240m 2294[62C[30m(B[m[38;5;26mfg[38;5;240m 2294[62C[30m(B[m[38;5;26m [38;5;240m2294[63C[30m(B[m [38;5;240m2294[63C[30m(B[m2[38;5;240m294[64C[30m(B[m[38;5;39m2[38;5;240m294[64C[30m(B[m[38;5;39m2[38;5;240m94[65C[30m(B[m[38;5;39m8[30m(B[m[K[66C[38;5;39m1[67C[30m(B[m
+[30m(B[m[?2004l]0;fg 2281 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mSend job 2 (sleep 1000 &) to foreground
+]0;sleep 1000 & /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m^Zfish: Job 2, 'sleep 1000 &' has stopped
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -9 2027[61C[30m(B[m[38;5;196mk[38;5;240mill -9 2027[61C[30m(B[m[38;5;196mi[38;5;240mll -9 2027[62C[30m(B[m[38;5;196ml[38;5;240ml -9 2027[63C[30m(B[m[38;5;196ml[38;5;240m -9 2027[64C[30m(B[m[38;5;26mkill[38;5;240m -9 2027[64C[30m(B[m[38;5;26m [38;5;240m-9 2027[65C[30m(B[m [38;5;240m-9 2027[65C[30m(B[m-[38;5;240m9 2027[66C[30m(B[m[38;5;39m-[38;5;240m9 2027[66C[30m(B[m[38;5;39mS[30m(B[m[K[67C[38;5;240mTOP 1750[67C[30m(B[m[38;5;39mT[38;5;240mOP 1750[68C[30m(B[m[38;5;39mO[38;5;240mP 1750[69C[30m(B[m[38;5;39mP[38;5;240m 1750[70C[30m(B[m[38;5;39m [38;5;240m1750[71C[30m(B[m [38;5;240m1750[71C[30m(B[m2[K[72C[38;5;39m2[72C[30m(B[m[38;5;39m2[73C[30m(B[m[38;5;39m8[74C[30m(B[m[38;5;39m1[75C[30m(B[m
+[30m(B[m[?2004l]0;kill -STOP 2281 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cp[61C[38;5;240ms axu[61C[30m(B[m[38;5;196mp[38;5;240ms axu[61C[30m(B[m[38;5;196ms[38;5;240m axu[62C[30m(B[m[38;5;26mps[38;5;240m axu[62C[30m(B[m[38;5;26m [38;5;240maxu[63C[30m(B[m [38;5;240maxu[63C[30m(B[ma[38;5;240mxu[64C[30m(B[m[38;5;39ma[38;5;240mxu[64C[30m(B[m[38;5;39mx[38;5;240mu[65C[30m(B[m[38;5;39mu[66C[30m(B[m[66C
+[30m(B[m[?2004l]0;ps axu /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mUSER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0    896   528 ?        Sl   13:51   0:00 /init
+root      1591  0.0  0.0    896    84 ?        Ss   15:47   0:00 /init
+root      1592  0.0  0.0    896    84 ?        R    15:47   0:00 /init
+lachryma  1593  0.0  0.0 236148  8620 pts/0    Ss   15:47   0:01 -fish
+lachryma  2233  0.0  0.0   7360  2208 pts/0    R+   17:12   0:00 script Q4.log
+lachryma  2234  0.2  0.0 235940  8308 pts/1    Ssl  17:12   0:00 fish -i
+lachryma  2263  0.0  0.2 220560 33568 pts/1    Tl   17:12   0:00 emacs -nw
+lachryma  2281  0.0  0.0   7232   580 pts/1    T    17:13   0:00 sleep 1000
+lachryma  2294  0.0  0.2 220560 33648 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2306  0.0  0.0   7232   576 pts/1    S    17:13   0:00 sleep 1000
+lachryma  2319  0.0  0.2 220560 33184 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2403  0.0  0.0  10616  3192 pts/1    R+   17:16   0:00 ps axu
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cb[61C[38;5;240mg 1962[61C[30m(B[m[38;5;196mb[38;5;240mg 1962[61C[30m(B[m[38;5;196mg[38;5;240m 1962[62C[30m(B[m[38;5;26mbg[38;5;240m 1962[62C[30m(B[m[38;5;26m [38;5;240m1962[63C[30m(B[m [38;5;240m1962[63C[30m(B[m2[K[64C[38;5;240m027[64C[30m(B[m[38;5;39m2[38;5;240m027[64C[30m(B[m[38;5;39m2[30m(B[m[K[65C[38;5;39m8[66C[30m(B[m[38;5;39m1[67C[30m(B[m
+[30m(B[m[?2004l]0;bg 2281 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mSend job 2 'sleep 1000 &' to background
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cp[61C[38;5;240ms axu[61C[30m(B[m[38;5;196mp[38;5;240ms axu[61C[30m(B[m[38;5;196ms[38;5;240m axu[62C[30m(B[m[38;5;26mps[38;5;240m axu[62C[30m(B[m[38;5;26m [38;5;240maxu[63C[30m(B[m [38;5;240maxu[63C[30m(B[ma[38;5;240mxu[64C[30m(B[m[38;5;39ma[38;5;240mxu[64C[30m(B[m[38;5;39mx[38;5;240mu[65C[30m(B[m[38;5;39mu[66C[30m(B[m[66C
+[30m(B[m[?2004l]0;ps axu /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mUSER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0    896   528 ?        Sl   13:51   0:00 /init
+root      1591  0.0  0.0    896    84 ?        Ss   15:47   0:00 /init
+root      1592  0.0  0.0    896    84 ?        R    15:47   0:00 /init
+lachryma  1593  0.0  0.0 236148  8620 pts/0    Ss   15:47   0:01 -fish
+lachryma  2233  0.0  0.0   7360  2208 pts/0    R+   17:12   0:00 script Q4.log
+lachryma  2234  0.2  0.0 235940  8308 pts/1    Ssl  17:12   0:00 fish -i
+lachryma  2263  0.0  0.2 220560 33568 pts/1    Tl   17:12   0:00 emacs -nw
+lachryma  2281  0.0  0.0   7232   580 pts/1    S    17:13   0:00 sleep 1000
+lachryma  2294  0.0  0.2 220560 33648 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2306  0.0  0.0   7232   576 pts/1    S    17:13   0:00 sleep 1000
+lachryma  2319  0.0  0.2 220560 33184 pts/1    Tl   17:13   0:00 emacs -nw
+lachryma  2428  0.0  0.0  10616  3288 pts/1    R+   17:16   0:00 ps axu
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -STOP 2281[61C[30m(B[m[38;5;196mk[38;5;240mill -STOP 2281[61C[30m(B[m[38;5;196mi[38;5;240mll -STOP 2281[62C[30m(B[m[38;5;196ml[38;5;240ml -STOP 2281[63C[30m(B[m[38;5;196ml[38;5;240m -STOP 2281[64C[30m(B[m[38;5;26mkill[38;5;240m -STOP 2281[64C[30m(B[m[38;5;26m [38;5;240m-STOP 2281[65C[30m(B[m [38;5;240m-STOP 2281[65C[30m(B[m-[38;5;240mSTOP 2281[66C[30m(B[m[38;5;39m-[38;5;240mSTOP 2281[66C[30m(B[m[38;5;39m9[30m(B[m[K[67C[38;5;240m 2027[67C[30m(B[m[38;5;39m [38;5;240m2027[68C[30m(B[m [38;5;240m2027[68C[30m(B[m2[38;5;240m027[69C[30m(B[m[38;5;39m2[38;5;240m027[69C[30m(B[m[38;5;39m2[30m(B[m[K[70C[38;5;39m6[71C[30m(B[m[38;5;39m3[72C[30m(B[m
+[30m(B[m[?2004l]0;kill -9 2263 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cfish: Job 1, 'emacs -nw' has stopped
+]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -9 2263[61C[30m(B[m[38;5;196mk[38;5;240mill -9 2263[61C[30m(B[m[38;5;196mi[38;5;240mll -9 2263[62C[30m(B[m[38;5;196ml[38;5;240ml -9 2263[63C[30m(B[m[38;5;196ml[38;5;240m -9 2263[64C[30m(B[m[38;5;26mkill[38;5;240m -9 2263[64C[30m(B[m[38;5;26m [38;5;240m-9 2263[65C[30m(B[m [38;5;240m-9 2263[65C[30m(B[m-[38;5;240m9 2263[66C[30m(B[m[38;5;39m-[38;5;240m9 2263[66C[30m(B[m[38;5;39m9[38;5;240m 2263[67C[30m(B[m[38;5;39m [38;5;240m2263[68C[30m(B[m [38;5;240m2263[68C[30m(B[m2[38;5;240m263[69C[30m(B[m[38;5;39m2[38;5;240m263[69C[30m(B[m[38;5;39m2[38;5;240m63[70C[30m(B[m[38;5;39m8[30m(B[m[K[71C[38;5;39m1[72C[30m(B[m
+[30m(B[m[?2004l]0;kill -9 2281 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mfish: Job 2, 'sleep 1000 &' terminated by signal SIGKILL (Forced quit)
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60C]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -9 2281[61C[30m(B[m[38;5;196mk[38;5;240mill -9 2281[61C[30m(B[m[38;5;196mi[38;5;240mll -9 2281[62C[30m(B[m[38;5;196ml[38;5;240ml -9 2281[63C[30m(B[m[38;5;196ml[38;5;240m -9 2281[64C[30m(B[m[38;5;26mkill[38;5;240m -9 2281[64C[30m(B[m[38;5;26m [38;5;240m-9 2281[65C[30m(B[m [38;5;240m-9 2281[65C[30m(B[m-[38;5;240m9 2281[66C[30m(B[m[38;5;39m-[38;5;240m9 2281[66C[30m(B[m[38;5;39m9[38;5;240m 2281[67C[30m(B[m[38;5;39m [38;5;240m2281[68C[30m(B[m [38;5;240m2281[68C[30m(B[m2[38;5;240m281[69C[30m(B[m[38;5;39m2[38;5;240m281[69C[30m(B[m[38;5;39m2[38;5;240m81[70C[30m(B[m[38;5;39m9[30m(B[m[K[71C[38;5;39m4[72C[30m(B[m
+[30m(B[m[?2004l]0;kill -9 2294 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cfish: Job 3, 'emacs -nw' has stopped
+]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -9 2294[61C[30m(B[m[38;5;196mk[38;5;240mill -9 2294[61C[30m(B[m[38;5;196mi[38;5;240mll -9 2294[62C[30m(B[m[38;5;196ml[38;5;240ml -9 2294[63C[30m(B[m[38;5;196ml[38;5;240m -9 2294[64C[30m(B[m[38;5;26mkill[38;5;240m -9 2294[64C[30m(B[m[38;5;26m [38;5;240m-9 2294[65C[30m(B[m [38;5;240m-9 2294[65C[30m(B[m-[38;5;240m9 2294[66C[30m(B[m[38;5;39m-[38;5;240m9 2294[66C[30m(B[m[38;5;39m9[38;5;240m 2294[67C[30m(B[m[38;5;39m [38;5;240m2294[68C[30m(B[m [38;5;240m2294[68C[30m(B[m2[38;5;240m294[69C[30m(B[m[38;5;39m2[38;5;240m294[69C[30m(B[m[38;5;39m3[30m(B[m[K[70C[38;5;39m0[71C[30m(B[m[38;5;39m6[72C[30m(B[m
+[30m(B[m[?2004l]0;kill -9 2306 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[mfish: Job 4, 'sleep 1000 &' terminated by signal SIGKILL (Forced quit)
+[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60C]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Ck[61C[38;5;240mill -9 2306[61C[30m(B[m[38;5;196mk[38;5;240mill -9 2306[61C[30m(B[m[38;5;196mi[38;5;240mll -9 2306[62C[30m(B[m[38;5;196ml[38;5;240ml -9 2306[63C[30m(B[m[38;5;196ml[38;5;240m -9 2306[64C[30m(B[m[38;5;26mkill[38;5;240m -9 2306[64C[30m(B[m[38;5;26m [38;5;240m-9 2306[65C[30m(B[m [38;5;240m-9 2306[65C[30m(B[m-[38;5;240m9 2306[66C[30m(B[m[38;5;39m-[38;5;240m9 2306[66C[30m(B[m[38;5;39m9[38;5;240m 2306[67C[30m(B[m[38;5;39m [38;5;240m2306[68C[30m(B[m [38;5;240m2306[68C[30m(B[m2[38;5;240m306[69C[30m(B[m[38;5;39m2[38;5;240m306[69C[30m(B[m[38;5;39m3[38;5;240m06[70C[30m(B[m[38;5;39m1[30m(B[m[K[71C[38;5;39m9[72C[30m(B[m
+[30m(B[m[?2004l]0;kill -9 2319 /m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[2m⏎(B[m                                                                                                          ⏎ [K[?2004h]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60Cfish: Job 5, 'emacs -nw' has stopped
+]0;/m/c/U/L/D/大/応/ubuntu用フォルダ[30m(B[m[92mlachryma(B[m@(B[mDESKTOP-M8R1HHU(B[m [32m/m/c/U/L/D/大/応/ubuntu用フォルダ(B[m(B[m> [K[60C
+[30m(B[m[30m(B[m[?2004l
+Script done on 2022-04-24 17:17:42+09:00 [COMMAND_EXIT_CODE="0"]

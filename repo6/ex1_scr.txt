@@ -1,0 +1,10 @@
+#!/usr/bin/awk -f
+{
+    sum = sum + $1
+    sum_sq = sum_sq + $1 * $1
+}
+END{
+    ave = sum/NR
+    var = sum_sq / NR - ave * ave
+    print ave, var
+}

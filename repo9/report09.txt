@@ -1,0 +1,80 @@
+1.
+渦を描くスクリプトを作成し、画像をつなぎ合わせて動画にした。
+渦の描画には媒介変数表示を用いた。
+動画では渦が徐々に描かれていく様子が記録されている。
+作成した動画はこのメールに添付している。
+作成したgplファイルを以下に示す。
+
+----------------------------------------
+set title "x=t*cos(t), y=t*sin(t)"
+set samples 5000
+set parametric
+set xrange [-10*pi:10*pi]
+set yrange [-10*pi:10*pi]
+set xlabel "x"
+set ylabel "y"
+set term png size 1280, 960
+
+do for [num = 0:100] {
+    outf = sprintf('%04.0f.png', num)
+    set output outf
+
+    leg = sprintf('dk = %03.0f', num)
+    plot [0:0.1*num*pi] t*cos(t), t*sin(t) title leg lc 'blue'
+}
+
+unset output
+----------------------------------------
+
+
+2.
+makeにおいてグラフファイルを作成する際にgnuplotを用いている。
+makeではgplファイルを読み込んでgnuplotを実行している。
+gnuplotではdatファイルを読み込み、データ点を繋いだ線グラフとして描画している。
+
+
+3.
+体温を記録するスクリプト（ex3.sh）とgnuplotで描画するためのスクリプト（bt.gpl）を作成した。
+ex3.shは体温の値を引数とし、引数の体温の値をdatファイルに追記する形で書き込み、gnuplotを呼び出す。
+bt.gplは体温データが保存されたdatファイルを線グラフとして描画する。
+作成された体温のグラフはこのメールに添付している。
+2つのスクリプトファイルと実行例を以下に示す。
+
+ex3.sh
+----------------------------------------
+#!/bin/sh
+
+FILE="bt.dat"
+if [ ! -f ${FILE} ]
+then
+    touch bt.dat
+fi
+
+echo $1 >> bt.dat
+gnuplot bt.gpl
+----------------------------------------
+
+bt.gpl
+----------------------------------------
+set title "body temperature"
+set term png
+set output "bt.png"
+plot "bt.dat" w l
+----------------------------------------
+
+実行例
+----------------------------------------
+$ ./ex3.sh 36.5
+Warning: empty x range [0:0], adjusting to [-1:1]
+Warning: empty y range [36.5:36.5], adjusting to [36.135:36.865]
+$ ./ex3.sh 36.3
+$ ./ex3.sh 36.8
+$ ./ex3.sh 37.4
+$ ./ex3.sh 37.1
+$ ./ex3.sh 36.6
+$ ./ex3.sh 36.7
+----------------------------------------
+
+
+4.
+普段はvscodeを使用しており、emacsは使用していないため省略。

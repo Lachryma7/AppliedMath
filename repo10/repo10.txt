@@ -1,0 +1,96 @@
+1.
+コマンドと実行結果を以下に示す。
+
+コマンド
+----------------------------------------
+SELECT fruits.name, SUM(price*quantity) FROM sales
+    JOIN fruits ON sales.fruit_id=fruits.id
+        GROUP BY fruits.id;
+----------------------------------------
+
+実行結果
+----------------------------------------
+name  SUM(price*qua
+----  -------------
+banana  1000
+apple  600
+water melon  20000
+orange  1200
+----------------------------------------
+
+
+2.
+.dumpコマンドを使うことでデータベースの情報をSQL文の形でバックアップした。
+入力したコマンドとbackup.txt（バックアップファイル）の中身を以下に示す。
+
+コマンド
+----------------------------------------
+sqlite> .once "backup.txt"
+sqlite> .dump
+----------------------------------------
+
+backup.txt
+----------------------------------------
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE fruits
+(id INTEGER PRIMARY KEY AUTOINCREMENT, name, price);
+INSERT INTO fruits VALUES(1,'banana',200);
+INSERT INTO fruits VALUES(3,'apple',300);
+INSERT INTO fruits VALUES(4,'water melon',2000);
+INSERT INTO fruits VALUES(5,'orange',400);
+INSERT INTO fruits VALUES(6,'mango','200');
+INSERT INTO fruits VALUES(7,'kiwi','150');
+INSERT INTO fruits VALUES(8,'avocado',550);
+INSERT INTO fruits VALUES(9,'coconut',1050);
+INSERT INTO fruits VALUES(10,'peach',830);
+INSERT INTO fruits VALUES(11,'lemon',180);
+CREATE TABLE customers
+(id INTEGER PRIMARY KEY AUTOINCREMENT, name);
+INSERT INTO customers VALUES(1,'john');
+INSERT INTO customers VALUES(2,'tom');
+INSERT INTO customers VALUES(3,'mike');
+CREATE TABLE sales
+(id INTEGER PRIMARY KEY AUTOINCREMENT, customer_id, fruit_id, quantity);
+INSERT INTO sales VALUES(1,2,5,3);
+INSERT INTO sales VALUES(2,1,1,1);
+INSERT INTO sales VALUES(3,2,3,2);
+INSERT INTO sales VALUES(4,2,1,4);
+INSERT INTO sales VALUES(5,3,4,10);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('fruits',11);
+INSERT INTO sqlite_sequence VALUES('customers',3);
+INSERT INTO sqlite_sequence VALUES('sales',5);
+COMMIT;
+----------------------------------------
+
+
+3.
+考えてみたが、思いつかなかった。
+SQLiteを含めたデータベースの利点は、今回の実習の題材のように商品、顧客、売上という組み合わせたら規模が非常に巨大かつ複雑なデータに対して個別にテーブルを保存することができ、必要に応じて結合や条件指定が簡単にできることだと思う。
+自分の生活の中ではここまで規模が巨大かつ個別にテーブルを保存したいようなデータを扱う機会はなく、むしろcsvやExcelのほうが日頃の用途には適している。
+例えば名前、住所、電話番号などを記録する連絡帳は複数のテーブルに分割して保存する必要性はなく、まとめて表形式のデータで保存したほうが管理しやすい。
+
+
+4.
+DB Browser for SQLiteを使ってみた。
+コマンドを入力しなくてもデータベースを視覚的に確認することができ、使いやすかった。
+課題1をDB Browser for SQLiteで実行している画面のスクリーンショットをこのメールに添付している。
+他にSQLiteのデータベースをGUIで操作できるアプリケーションとしては「PupSQLite」や「Navicat for SQLite」が確認できた。
+
+
+5.
+本講義のデータベースを読み込み、課題1のSQL文を実行して結果を出力するPythonプログラムを書いた。
+Pythonプログラムを以下に示す。
+
+----------------------------------------
+import sqlite3
+dbname = 'db1.db'
+conn = sqlite3.connect(dbname)
+cur = conn.cursor()
+cur.execute('SELECT fruits.name, SUM(price*quantity) FROM sales JOIN fruits ON sales.fruit_id=fruits.id GROUP BY fruits.id')
+for row in cur:
+    print(row)
+cur.close()
+conn.close()
+----------------------------------------

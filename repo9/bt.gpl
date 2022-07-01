@@ -1,0 +1,4 @@
+set title "body temperature"
+set term png
+set output "bt.png"
+plot "bt.dat" w l

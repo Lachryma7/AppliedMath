@@ -1,0 +1,31 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE fruits
+(id INTEGER PRIMARY KEY AUTOINCREMENT, name, price);
+INSERT INTO fruits VALUES(1,'banana',200);
+INSERT INTO fruits VALUES(3,'apple',300);
+INSERT INTO fruits VALUES(4,'water melon',2000);
+INSERT INTO fruits VALUES(5,'orange',400);
+INSERT INTO fruits VALUES(6,'mango','200');
+INSERT INTO fruits VALUES(7,'kiwi','150');
+INSERT INTO fruits VALUES(8,'avocado',550);
+INSERT INTO fruits VALUES(9,'coconut',1050);
+INSERT INTO fruits VALUES(10,'peach',830);
+INSERT INTO fruits VALUES(11,'lemon',180);
+CREATE TABLE customers
+(id INTEGER PRIMARY KEY AUTOINCREMENT, name);
+INSERT INTO customers VALUES(1,'john');
+INSERT INTO customers VALUES(2,'tom');
+INSERT INTO customers VALUES(3,'mike');
+CREATE TABLE sales
+(id INTEGER PRIMARY KEY AUTOINCREMENT, customer_id, fruit_id, quantity);
+INSERT INTO sales VALUES(1,2,5,3);
+INSERT INTO sales VALUES(2,1,1,1);
+INSERT INTO sales VALUES(3,2,3,2);
+INSERT INTO sales VALUES(4,2,1,4);
+INSERT INTO sales VALUES(5,3,4,10);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('fruits',11);
+INSERT INTO sqlite_sequence VALUES('customers',3);
+INSERT INTO sqlite_sequence VALUES('sales',5);
+COMMIT;

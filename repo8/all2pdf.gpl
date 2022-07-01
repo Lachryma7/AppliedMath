@@ -1,0 +1,3 @@
+set output "all.pdf"
+set term pdf
+plot "f-sin.dat" w l, "f-cos.dat" w l, "f-cosm.dat" w l

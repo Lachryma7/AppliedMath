@@ -1,0 +1,115 @@
+1.
+講義資料のMakefileの先頭に3行追加した．
+実行した結果，圧縮されたグラフファイルとしてall.pdf.gzが作成されている．
+Makefileと実行結果を以下に示す．
+
+Makefile
+------------------------------
+all.pdf.gz: all.pdf
+	rm -f all.pdf.gz
+	gzip -c all.pdf > all.pdf.gz
+
+all.pdf: f-sin.dat f-cos.dat f-cosm.dat
+	gnuplot "all2pdf.gpl"
+
+f-sin.dat: f-sin.exe
+	rm -f f-sin.dat
+	./f-sin.exe > f-sin.dat
+
+f-cos.dat: f-cos.exe
+	rm -f f-cos.dat
+	./f-cos.exe > f-cos.dat
+
+f-cosm.dat: f-cos.dat
+	rm -f f-cosm.dat
+	cat f-cos.dat | awk -e '{print $$1, -$$2}' > f-cosm.dat
+
+f-sin.exe: f-sin.c
+	gcc f-sin.c -lm -o f-sin.exe
+
+f-cos.exe: f-cos.c
+	gcc f-cos.c -lm -o f-cos.exe
+------------------------------
+
+実行結果
+------------------------------
+$ ls
+Makefile  all2pdf.gpl  f-cos.c  f-sin.c  repo8.txt
+$ make
+gcc f-sin.c -lm -o f-sin.exe
+f-sin.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | main () {
+      | ^~~~
+rm -f f-sin.dat
+./f-sin.exe > f-sin.dat
+gcc f-cos.c -lm -o f-cos.exe
+f-cos.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | main () {
+      | ^~~~
+rm -f f-cos.dat
+./f-cos.exe > f-cos.dat
+rm -f f-cosm.dat
+cat f-cos.dat | awk -e '{print $1, -$2}' > f-cosm.dat
+gnuplot "all2pdf.gpl"
+rm -f all.pdf.gz
+gzip -c all.pdf > all.pdf.gz
+$ ls
+Makefile  all.pdf  all.pdf.gz  all2pdf.gpl  f-cos.c  f-cos.dat  f-cos.exe  f-cosm.dat  f-sin.c  f-sin.dat  f-sin.exe  repo8.txt
+------------------------------
+
+
+2.
+講義資料のMakefileに3行追加し，グラフファイルがあればgnuplotを呼び出す前にバックアップを行うようにした．
+実行した結果，バックアップフォルダにグラフファイルがバックアップされていることがわかる．
+Makefileと実行結果を以下に示す．
+
+Makefile
+------------------------------
+all.pdf: f-sin.dat f-cos.dat f-cosm.dat
+	if test -e "all.pdf"; then\
+		cp -f all.pdf ../backup;\
+	fi
+	gnuplot "all2pdf.gpl"
+
+f-sin.dat: f-sin.exe
+	rm -f f-sin.dat
+	./f-sin.exe > f-sin.dat
+
+f-cos.dat: f-cos.exe
+	rm -f f-cos.dat
+	./f-cos.exe > f-cos.dat
+
+f-cosm.dat: f-cos.dat
+	rm -f f-cosm.dat
+	cat f-cos.dat | awk -e '{print $$1, -$$2}' > f-cosm.dat
+
+f-sin.exe: f-sin.c
+	gcc f-sin.c -lm -o f-sin.exe
+
+f-cos.exe: f-cos.c
+	gcc f-cos.c -lm -o f-cos.exe
+------------------------------
+
+実行結果
+------------------------------
+$ ls ../backup/
+$ ls
+Makefile  all.pdf  all2pdf.gpl  f-cos.c  f-cos.dat  f-cos.exe  f-cosm.dat  f-sin.c  f-sin.dat  f-sin.exe  repo8.txt
+$ make
+gcc f-sin.c -lm -o f-sin.exe
+f-sin.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | main () {
+      | ^~~~
+rm -f f-sin.dat
+./f-sin.exe > f-sin.dat
+if test -e "all.pdf"; then\
+        cp -f all.pdf ../backup;\
+fi
+gnuplot "all2pdf.gpl"
+$ ls ../backup/
+all.pdf
+------------------------------
+
+3.
+makeはTeXの編集作業に使えなくはないと思う．
+しかし，TeXであればLatexmkでコンパイル作業を自動化できるため，わざわざmakeを使う必要性はないと思う．

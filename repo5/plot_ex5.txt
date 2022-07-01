@@ -1,0 +1,53 @@
+unset terminal
+unset output
+reset
+
+array a[116]
+a[1] = 45
+a[2] = 40
+a[3] = 31
+a[4] = 31
+a[5] = 20
+a[6] = 19
+a[7] = 15
+a[8] = 14
+a[9] = 12
+a[10] = 11
+a[11] = 10
+a[12] = 9
+do for [i=13:16]{
+    a[i] = 8
+}
+do for [i=17:23]{
+    a[i] = 7
+}
+do for [i=24:28]{
+    a[i] = 6
+}
+do for [i=29:33]{
+    a[i] = 5
+}
+do for [i=34:40]{
+    a[i] = 4
+}
+do for [i=41:56]{
+    a[i] = 3
+}
+do for [i=57:100]{
+    a[i] = 2
+}
+
+set terminal png
+set xlabel 'word order'
+set ylabel 'count'
+
+set output "graph1.png"
+plot a with lines
+
+set output "graph2.png"
+set logscale
+plot a with lines
+set nologscale
+
+unset terminal
+unset output

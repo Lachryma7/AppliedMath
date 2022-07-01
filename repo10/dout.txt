@@ -1,0 +1,6 @@
+id    name           pric
+----  -------------  ----
+1     banana         100 
+2     strawberry     200 
+3     apple          150 
+4     water melon    1500
